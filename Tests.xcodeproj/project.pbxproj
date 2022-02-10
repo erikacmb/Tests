@@ -13,9 +13,10 @@
 		01C987D827B572CB00EAB564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C987D627B572CB00EAB564 /* Main.storyboard */; };
 		01C987DA27B572D000EAB564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C987D927B572D000EAB564 /* Assets.xcassets */; };
 		01C987DD27B572D000EAB564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C987DB27B572D000EAB564 /* LaunchScreen.storyboard */; };
-		01C987E827B572D100EAB564 /* TestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C987E727B572D100EAB564 /* TestsTests.swift */; };
 		01C987F227B572D100EAB564 /* TestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C987F127B572D100EAB564 /* TestsUITests.swift */; };
 		01C987F427B572D100EAB564 /* TestsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C987F327B572D100EAB564 /* TestsUITestsLaunchTests.swift */; };
+		01C9880327B5797800EAB564 /* MathHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C9880227B5797800EAB564 /* MathHelper.swift */; };
+		01C9880527B57A3900EAB564 /* MathHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C9880427B57A3900EAB564 /* MathHelperTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +46,11 @@
 		01C987DC27B572D000EAB564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01C987DE27B572D000EAB564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01C987E327B572D100EAB564 /* TestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		01C987E727B572D100EAB564 /* TestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsTests.swift; sourceTree = "<group>"; };
 		01C987ED27B572D100EAB564 /* TestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C987F127B572D100EAB564 /* TestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsUITests.swift; sourceTree = "<group>"; };
 		01C987F327B572D100EAB564 /* TestsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		01C9880227B5797800EAB564 /* MathHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathHelper.swift; sourceTree = "<group>"; };
+		01C9880427B57A3900EAB564 /* MathHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathHelperTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				01C987D927B572D000EAB564 /* Assets.xcassets */,
 				01C987DB27B572D000EAB564 /* LaunchScreen.storyboard */,
 				01C987DE27B572D000EAB564 /* Info.plist */,
+				01C9880227B5797800EAB564 /* MathHelper.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -113,7 +116,7 @@
 		01C987E627B572D100EAB564 /* TestsTests */ = {
 			isa = PBXGroup;
 			children = (
-				01C987E727B572D100EAB564 /* TestsTests.swift */,
+				01C9880427B57A3900EAB564 /* MathHelperTests.swift */,
 			);
 			path = TestsTests;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01C987D527B572CB00EAB564 /* ViewController.swift in Sources */,
+				01C9880327B5797800EAB564 /* MathHelper.swift in Sources */,
 				01C987D127B572CB00EAB564 /* AppDelegate.swift in Sources */,
 				01C987D327B572CB00EAB564 /* SceneDelegate.swift in Sources */,
 			);
@@ -268,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01C987E827B572D100EAB564 /* TestsTests.swift in Sources */,
+				01C9880527B57A3900EAB564 /* MathHelperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
